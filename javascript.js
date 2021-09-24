@@ -7,10 +7,11 @@ const quoteArr = ["I love being a drummer. Everyone thinks you’re dumb. What t
     "Drumming was the only thing I was ever good at.",
     "Drums all have their own particulars – each drum has a place where they sound the best – where they ring out and resonate the best, and the head surface isn’t too loose or too tight, mainly so you get a good rebound off of the head.",
     "Drumming is my middle name.",
-    "Drumming’s pretty physical. We sit at the back of the stage getting beat up like a workhorse."
+    "Drumming’s pretty physical. We sit at the back of the stage getting beat up like a workhorse.",
+    "I'm a drummer. I can count to four and repeat."
 ];
 
-const drummers = ["-Dave Grohl", "-Neil Peart", "-Tony Williams", "-Buddy Rich", "-John Bonham", "-Chad Smith", "-Ringo Starr", "-Tommy Lee" ];
+const drummers = ["-Dave Grohl", "-Neil Peart", "-Tony Williams", "-Buddy Rich", "-John Bonham", "-Chad Smith", "-Ringo Starr", "-Tommy Lee", "-Tre Cool" ];
 
 let random = Math.floor(Math.random()*quoteArr.length);
 let ranQuote = quoteArr[random];
